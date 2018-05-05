@@ -126,12 +126,8 @@ function addDomProperty(fastn, key, property){
             }
 
             if(isProperty){
-                Object.defineProperties(element, {
-                  key: {
-                    value: value,
-                    writable: true
-                  }
-                });
+                element[key] = value;
+                
                 return;
             }
 
