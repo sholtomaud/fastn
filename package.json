@@ -1,5 +1,5 @@
 {
-  "name": "fastner",
+  "name": "fastn",
   "version": "2.11.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KoryNunn/fastn.git"
+    "url": "git+https://github.com/shotlom/fastn.git"
   },
   "dependencies": {
     "classist": "^1.1.1",
