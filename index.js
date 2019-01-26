@@ -2,7 +2,7 @@ var createProperty = require('./property'),
     createBinding = require('./binding'),
     BaseComponent = require('./baseComponent'),
     crel = require('crel'),
-    Enti = require('enti'),
+    Entin = require('entin'),
     objectAssign = require('object-assign'),
     is = require('./is');
 
@@ -115,8 +115,8 @@ module.exports = function(components, debug){
     fastn.isBindingObject = is.bindingObject;
     fastn.isProperty = is.property;
     fastn.components = components;
-    fastn.Model = Enti;
-    fastn.isModel = Enti.isEnti.bind(Enti);
+    fastn.Model = Entin;
+    fastn.isModel = Entin.isEntin.bind(Entin);
 
     fastn.base = function(type, settings, children){
         return new BaseComponent(fastn, type, settings, children);

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "browserify ./test/index.js > ./test/index.browser.js && google-chrome ./test/index.html",
+    "test": "browserify ./test/index.js > ./test/index.browser.js && chrome ./test/index.html",
     "watch": "watchify test/index.js -o test/index.browser.js -d"
   },
   "author": "",
@@ -16,22 +16,22 @@
   "dependencies": {
     "classist": "^1.1.1",
     "crel": "^3.0.0",
-    "enti": "^6.0.1",
+    "enti": "^6.1.1",
     "flat-merge": "^1.0.0",
     "flatten": "1.0.2",
     "function-emitter": "^1.0.0",
     "multimap": "^1.0.2",
     "object-assign": "^4.1.0",
     "same-value": "^1.0.2",
-    "setify": "^1.0.3",
-    "setprototypeof": "^1.0.2",
-    "what-changed": "^2.2.0"
+    "setify": "^1.0.4",
+    "setprototypeof": "^1.1.1",
+    "what-changed": "^2.3.1"
   },
   "devDependencies": {
-    "browserify": "^14.5.0",
+    "browserify": "^16.2.3",
     "console-watch": "^1.0.2",
     "dom-lite": "^0.5.1",
-    "tape": "^4.6.3",
-    "watchify": "^3.10.0"
+    "tape": "^4.9.2",
+    "watchify": "^3.11.0"
   }
 }
